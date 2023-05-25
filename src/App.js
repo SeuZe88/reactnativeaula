@@ -22,12 +22,27 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack'
 import Familia from "./componentes/relacao/Familia"
 import Membro from "./componentes/relacao/Membro"
 import { SafeAreaView } from "react-native-safe-area-context"
+import ListaProduto from "./componentes/produto/ListaProdutos"
+import ListaProdutos from "./componentes/produto/ListaProdutos"
+import ListaProduto2 from "./componentes/produto/ListaProdutoV2"
+import ListaProdutoV2 from "./componentes/produto/ListaProdutoV2"
+import Quadrado from "./componentes/layout/Quadrado"
+import FlexboxV1 from "./componentes/layout/FlexboxV1"
+import FlexboxV2 from "./componentes/layout/FlexboxV2"
+import FlexboxV3 from "./componentes/layout/FlexboxV3"
+import FlexboxV4 from "./componentes/layout/FlexboxV4"
+import Mega from "./componentes/mega/Mega"
 
 const Stack = createNativeStackNavigator()
 
 export default () => (
     <SafeAreaView style={styles.TelaIniciante}>
-<Familia>
+        <Mega qtdeNumeros={7}/>
+        {/* <FlexboxV3/> */
+
+        /* <ListaProdutoV2/> */
+        /* <ListaProdutos/> */
+/* <Familia>
     <Membro nome="Jorge" sobrenome="Pereiras"/>
     <Membro nome="Edinaldo" sobrenome="Pereiras"/>
     <Membro nome="Marcinho" sobrenome="Pereiras"/>
@@ -38,7 +53,7 @@ export default () => (
     <Membro nome="Fernando" sobrenome="Da Silva"/>
     <Membro nome="Jorge" sobrenome="Da Silva"/>
     <Membro nome="Marcia" sobrenome="Da Silva"/>
-</Familia>
+</Familia> */}
 </SafeAreaView>
         // <NavigationContainer>
         //     <Stack.Navigator>
